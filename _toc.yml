@@ -1,0 +1,28 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+parts:
+  - caption: Overview
+    chapters:
+      - file: climate-modelling-handbook/0.0.0_Overview
+  - caption: Getting Started with a Coffee Example
+    chapters:
+      - file: climate-modelling-handbook/1.2.1_GettingStarted
+      - file: climate-modelling-handbook/2.1.1_Coffee
+      - file: climate-modelling-handbook/2.1.optional_HeatEquation1D
+      - file: climate-modelling-handbook/2.1.2_EnergyBalance
+  - caption: Satellite and ERA5 Data
+    chapters:
+      - file: climate-modelling-handbook/2.1.3_Satellite
+      - file: climate-modelling-handbook/2.1.4_ERA5
+      - file: climate-modelling-handbook/2.1.optional_MapProjections
+  - caption: Prepare and run a WRF climate model simulation
+    chapters:
+      - file: climate-modelling-handbook/2.2.Run_a_climate_model
+  - caption: Analysis and Interpretation of WRF Model Output
+    chapters:
+      - file: climate-modelling-handbook/3.1.1_WRF
+      - file: climate-modelling-handbook/3.1.2_ERA5_and_WRF
+      - file: climate-modelling-handbook/3.1.optional_Colormaps
